@@ -49,7 +49,7 @@ namespace DotnetCore
             Console.WriteLine($"Parameterized constructor {obj2.ToString()} ");
             // Using copy constructor
             ConstructorExample obj3 = new ConstructorExample(obj2);
-            Console.WriteLine($"Parameterized constructor {obj3.ToString()} ");
+            Console.WriteLine($"copy constructor {obj3.ToString()} ");
         }
     }
 }
